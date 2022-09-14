@@ -1,0 +1,32 @@
+.nav-item:hover {
+  background-color: #2f3030;
+  border-radius: 8px;
+}
+
+.a-cardtext {
+  color: #2f3030;
+  text-decoration: none;
+}
+
+.a-cardtext:hover,
+.card:hover {
+  color: #fff;
+  background-color: #2f3030;
+}
+
+.logo {
+  background-color: #fff;
+}
+
+.img-pengertian {
+  width: 70%;
+}
+
+.img-sejarah {
+  width: 40%;
+}
+
+.topics-sejarah,
+.referensi {
+  margin: 3px;
+}
