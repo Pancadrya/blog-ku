@@ -18,12 +18,28 @@
   background-color: #fff;
 }
 
-.img-pengertian {
-  width: 70%;
+.img-pengertian,
+.img-pembagian-register,
+.img-sejarah,
+.img-rangkaian-komponen,
+.img-register-data {
+  width: 40%;
 }
 
-.img-sejarah {
-  width: 40%;
+.img-encoder,
+.img-simbol-decoder,
+.img-simbol-register-data,
+.img-simbol-register-geser,
+.img-simbol-pencacah {
+  width: 60%;
+}
+
+.img-multiplexer,
+.img-demultiplexer,
+.img-decoder,
+.img-rangkaian-register-geser,
+.img-pencacah {
+  width: 80%;
 }
 
 .topics-sejarah,
