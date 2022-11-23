@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+    <head>
+        <title> Blog-ku | Rangkaian Sekuensial </title>
+
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+        
+        <!-- Bootstrap Icon -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
+
+        <!-- My CSS -->
+        <link rel="stylesheet" href="style.css" />
+    </head>
+
+    <body id="home" style="background-color: #fff">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark shadow-sm fixed-top" style="background-color: #000;">
+            <div class="container">
+            <a class="navbar-brand" href="index.html#home" style="color: #fff; font-weight: bold;">
+                <img src="img/calon logo 2.png" alt="Logo" width="24" height="26" class="d-inline-block align-text-top">
+                Blog-ku
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" style="color: #fff" aria-current="page" href="index.html#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="color: #fff" href="index.html#topics">Topik</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="color: #fff" href="#pengertian">Pengertian</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="color: #fff" href="#rangkaian-sekuensial-asinkron">Sekuensial Asinkron</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="color: #fff" href="#rangkaian-sekuensial-sinkron">Sekuensial Sinkron</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="color: #fff" href="#clock-sequential-circuit">Clock Sequential Circuit</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="color: #fff" href="#flip-flop">Flip-Flop</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="color: #fff" href="#counter">Counter</a>
+                </li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+        <!-- Akhir Navbar -->
+
+        <!-- Home -->
+        <section id="about" style="background-color: #2f3030">
+            <div class="container" style="color: #fff">
+                <br><br><br><br>
+            <div class="row">
+                <center><img width="100px" height="100px" src="img/calon logo 2.png" alt=""></center>
+                <br><br>
+            </div>
+            <br><br>
+            <div class="row text-center mb-3">
+                <div class="col">
+                    <h1>Rangkaian Sekuensial</h1>
+                </div>
+            </div>
+            <div class="row justify-content-center fs-5 text-start">
+                <center><div class="col">
+                    Pancadrya Y.P. | 23 November 2022
+                </div>
+                </div>
+                </center>
+            </div>
+            <div class="container">
+            <div class="row justify-content-center fs-5 text-center">
+            <div class="col-md-2 mb-3"><img src="img/Icon/1.svg" alt="" width="100"></div>
+            <div class="col-md-2 mb-3"><img src="img/Icon/2.svg" alt="" width="100"></div>
+            <div class="col-md-2 mb-3"><img src="img/Icon/3.svg" alt="" width="110"></div>
+            <div class="col-md-2 mb-3"><img src="img/Icon/4.svg" alt="" width="100"></div>
+            <div class="col-md-2 mb-3"><img src="img/Icon/5.svg" alt="" width="100"></div>  
+            </div>
+            </div>  
+            <br><br><br><br><br>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#fff" fill-opacity="1" d="M0,32L0,128L288,128L288,288L576,288L576,128L864,128L864,256L1152,256L1152,32L1440,32L1440,320L1152,320L1152,320L864,320L864,320L576,320L576,320L288,320L288,320L0,320L0,320Z">
+                </path>
+            </svg>
+        </section>
+        <!-- Akhir home -->
+
+        <!-- Pengertian -->
+        <section id="pengertian"  style="background-color: #fff">
+            <div class="container">
+            <div class="row text-center mb-3" style="color: #2f3030">
+                <div class="col">
+                    <br><br><br>
+                <h2>Pengertian Rangkaian Sekuensial</h2>
+                <br>
+                <img class="img-pengertian" src="https://cdn.pixabay.com/photo/2019/04/16/08/53/work-4131218_960_720.png" alt="">
+                <br><br>
+                <center><p>Sumber: pixabay.com</p></center>
+                <br>
+                </div>
+            </div>
+            <div class="row text-start m-3" style="color: #2f3030">
+                <p>
+                    Rangkaian sekuensial merupakan suatu rangkaian yang keluarannya tidak hanya tergantung pada kombinasi masukannya tetapi juga tergantung pada keluaran sebelumnya. Secara logika, keluaran sebelumnya tergantung pada input sebelumnya, oleh sebab itu, pada beberapa teori, rangkaian sekuensial juga dikatakan bergantung pada masukan sebelumnya. 
+                </p>
+                <p>
+                    Rangkaian sekuensial umum digunakan untuk membangun sebuah memori, rangkaian penyimpan, rangkaian penunda, rangkaian pencacah (counter) dan komponen penyimpan (storage). Sebuah sistem digital biasanya merupakan gabungan antara rangkaian kombinasional dan rangkaian sekuensial. Keluaran rangkaian sekuensial tergantung pada masukan sekarang dan sebelumnya. Hal tersebut menunjukkan bahwa suatu rangkaian sekuensial memiliki penyimpan (memory) atau kemampuan untuk menyimpan informasi input sebelumnya (Prasetio et al, 2017).
+                </p>
+                <p>
+                    Perbedaan paling mencolok antara rangkaian kombinasional dan rangkaian sekuensial adalah rangkaian sekuensial memiliki kemampuan untuk menyimpan nilai
+                    masukan atau berfungsi sebagai memori penyimpanan sedangkan
+                    rangkaian kombinasional tidak.
+                </p>
+                <p>
+                    Contoh  rangkaian sekuensial adalah rangkaian yang dioperasikan dengan pemilih saluran push
+                    button ke atas dan ke bawah pada TV, dimana saluran yang terpilih
+                    bergantung pada pemilihan sekuen sebelumnya, saat 10 jam yang lalu
+                    dan dimungkinkan untuk dapat pilih kembali ketika pertama kali
+                    tersambung dan ditampilkan di layar. 
+                </p>
+                <h4>
+                    <br>Diagram Blok Rangkaian Sekuensial
+                </h4>
+                <br>
+                <img class="img-simbol-and" src="img/rangkaian sekuensial.jpeg" alt="">
+            </div>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#2f3030" fill-opacity="1" d="M0,96L0,128L288,128L288,224L576,224L576,96L864,96L864,256L1152,256L1152,128L1440,128L1440,320L1152,320L1152,320L864,320L864,320L576,320L576,320L288,320L288,320L0,320L0,320Z">
+            </path>
+            </svg>
+        </section>
+        <!-- Akhir Pengertian -->
+
+        <!-- Rangkaian Sekuensial Asinkron -->
+        <section id="rangkaian-sekuensial-asinkron" style="background-color: #2f3030">
+            <div class="container">
+                <div class="row text-center mb-3" style="color: #fff">
+                    <div class="col">
+                        <br><br><br>
+                        <h2>Rangkaian Sekuensial Asinkron</h2>
+                    </div>
+                </div>
+                <br><br>
+                <div class="row text-start m-3" style="color: #fff">
+                    <p>
+                        Rangkaian sekuensial asinkron adalah rangkaian sekuensial yang bergantung pada masukan-masukan yang diterapkan.
+                        Elemen memori yang digunakan pada rangkaian asinkron biasanya
+                        merupakan piranti time delay.
+                        Sebuah rangkaian sekuensial dapat dipandang sebagai rangkaian
+                        kombinasi dengan umpan balik.
+                    </p>
+                </div>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,128L0,224L288,224L288,320L576,320L576,224L864,224L864,160L1152,160L1152,288L1440,288L1440,320L1152,320L1152,320L864,320L864,320L576,320L576,320L288,320L288,320L0,320L0,320Z"></path></svg>
+        </section>
+        <!-- Akhir Rangkaian Sekuensial Asinkron -->
+
+        <!-- Rangkaian Sekuensial Sinkron -->
+        <section id="rangkaian-sekuensial-sinkron" style="background-color: #fff">
+            <div class="container">
+                <div class="row text-center mb-3" style="color: #2f3030">
+                    <div class="col">
+                        <br><br><br>
+                        <h2>Rangkaian Sekuensial Sinkron</h2>
+                        <br><br>
+                    </div>
+                </div>
+                <div class="row text-start m-3" style="color: #2f3030">
+                    <p>
+                        Rangkaian sekuensial sinkron adalah rangkaian sekuensial yang mempunyai kondisi yang hanya dapat
+                        digunakan pada waktu diskrit.
+                        Sinkronisasi dicapai melalui piranti pewaktu yang disebut
+                        System Clock Generator yang membangkitkan deret periode
+                        waktu pulsa. Waktu pulsa dimasukan ke seluruh sistem melalui
+                        keadaan internal (yaitu bagian dari memori) yang hanya
+                        berpengaruh saat waktu pulsa memicu rangkaian.
+                        Rangkaian sekuensial sinkron menggunakan pewaktu pada masukan
+                        elemen memori yang disebut Clock Sequential Circuit.
+                    </p>
+                    </div>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#2f3030" fill-opacity="1" d="M0,128L0,224L288,224L288,320L576,320L576,224L864,224L864,160L1152,160L1152,288L1440,288L1440,320L1152,320L1152,320L864,320L864,320L576,320L576,320L288,320L288,320L0,320L0,320Z"></path></svg>
+        </section>
+        <!-- Akhir Rangkaian Sekuensial Sinkron -->
+
+        <!-- Clock Sequential Circuit -->
+        <section id="clock-sequential-circuit" style="background-color: #2f3030">
+            <div class="container">
+                <div class="row text-center mb-3" style="color: #fff">
+                    <div class="col">
+                        <br><br><br>
+                        <h2>Clock Sequential Circuit</h2>
+                        <br><br>
+                    </div>
+                </div>
+                <div class="row text-start m-3" style="color: #fff">
+                    <p>
+                        Clock Sequential Circuit adalah rangkaian sekuensial pewaktu yang menggunakan sebuah elemen
+                        memori yang dikenal sebagai Flip-Flop.
+                        Sebuah flip-flop adalah sebuah rangkaian elektronika yang
+                        dipakai untuk menyimpan 1 bit informasi, dan membuat 1 bit
+                        sel memori.
+                        Flip-Flop mempunyai dua keluaran, satu memberikan nilai bit
+                        biner yang disimpan dan satunya lagi memberikan nilai komplemen.  
+                    </p>
+                </div>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,128L0,224L288,224L288,320L576,320L576,224L864,224L864,160L1152,160L1152,288L1440,288L1440,320L1152,320L1152,320L864,320L864,320L576,320L576,320L288,320L288,320L0,320L0,320Z"></path></svg>
+        </section>
+        <!-- Akhir Clock Sequential Circuit -->
+
+        <!-- Flip-Flop -->
+        <section id="flip-flop" style="background-color: #fff">
+            <div class="container">
+                <div class="row text-center mb-3" style="color: #2f3030">
+                    <div class="col">
+                        <br><br><br>
+                        <h2>Flip-Flop</h2>
+                        <br><br>
+                    </div>
+                </div>
+                <div class="row text-start m-3" style="color: #2f3030">
+                    <p>
+                        Flip-flop merupakan piranti atau alat bistabil yang mendefiniskan dua keadaan
+                        dan sewaktu-waktu piranti dikatakan tidak stabil. Keadaan
+                        stabil adalah sebuah keadaan yang dicapai oleh piranti yang tidak
+                        berubah tanpa ada yang mengubahnya. Perumpamaan paling mudah terhadap flip-flop adalah 1 bit sel memori yang
+                        tetap menyimpan bit selama periode waktu yang dikehendaki.
+                    </p>
+                    <h4>
+                        Keadaan Piranti Bistabil
+                    </h4>
+                    <br>
+                    <img class="img-60" src="img/keadaan piranti bistabil.jpeg" alt="">
+                    <p> <br>
+                        Sebuah Flip-Flop didefinisikan sebagai sebuah piranti elektronika bistabil
+                        yang memiliki dua keadaan yakni 0 V untuk logika 0 dan 5 V untuk logika 1.
+                        Dua keadaan stabil dan flip-flop sebagai elemen memori ditunjukkan pada
+                        Gambar di atas, yakni (a) Logika 0 dan (b) Logika 1.
+                    </p>
+                    <h4>
+                        Flip-Flop atau Latch Dasar ‘Logic 0’ = 0V, and ‘Logic 1’ = 5 V 
+                    </h4>
+                    <br><br>
+                    <img class="img-60" src="img/ff atau latch dasar.jpeg" alt="">
+                    <p> <br>
+                        a) Rangkaian memori dasar atau flip-flop
+                        yang menghubungkan dua inverter
+                        (gerbang NOT) secara seri. <br>
+                        b) Logika 0, dengan membuka dan
+                        menutup switch dan grounding
+                        masukan inverter pertama <br>
+                        c) Logika 0 <br>
+                        d) Logika 1 <br>
+                    </p>
+                    <h4>
+                        Jenis-Jenis Filp-Flop
+                    </h4>
+                    <p>
+                        Terdapat berbagai macam flip-flop. Perbedaan utama dari berbagai macam flip-flop tersebut adalah banyaknya masukan yang dimiliki dan bagaimana masukan tersebut merubah keluaran (Prasetio et al, 2017). Rangkaian flip-flop dapat digunakan sebagai elemen penyimpan data atau memori. 
+                    </p>
+                    <h4>
+                        Flip-Flop SR/RS (Set Reset/Reset Set)
+                    </h4>
+                    <br>
+                    <p>
+                        Rangkaian dasar flip-flop dapat dibuat dengan menggunakan dua gerbang NAND atau dua gerbang NOR. Keluaran dari Flip Flop diberi label Q dan Q’ yang mana nilainya
+                        selalu berawanan. Visualisasi flip-flop RS atau SR dengan gerbang NOR terdapat pada gambah di bawah ini.
+                    </p>
+                    <img class="img-simbol-full-adder" src="img/rangkaian flip flop sr.jpeg" alt="">
+                    <p>
+                        Rangkaian flip-flop pada gambar di atas mempunyai dua buah masukan, yaitu R dan S. Oleh karena itulah, rangkaian flip-flop seperti itu sering juga disebut dengan flip-flop RS atau SR. Flip-flop RS memiliki dua buah keluaran yaitu Q dan Q'. Masukan set (S=1) akan mengakibatkan flip-flop dalam keadaan set, atau Q=1. Masukan reset (R=1) akan mengakibatkan flip-flop dalam keadaan reset atau Q=0. Jika kedua masukan flip-flop bernilai 0, maka keluaran Q tidak ada perubahan atau sama dengan keluaran sebelumnya. Sedangkan kedua masukan bernilai 1 merupakan kondisi terlarang atau sebaiknya tidak digunakan karena akan mengakibatkan keluarannya tidak dapat ditentukan.
+                    </p>
+                    <p style="font-weight: bold">Tabel Kebenaran Flip-Flop RS/SR</p>
+                    <img class="img-tabel-ff-sr" src="img/tabel kebenaran flip flop sr.jpeg" alt="">
+                    <p style="font-weight: bold"><br> Simbol Flip-Flop RS/SR</p>
+                    <img class="img-tabel-ff-sr" src="img/simbol ff sr.jpeg" alt="">
+                    <p style="font-weight: bold"> <br> Detak</p>
+                    <p>
+                        Detak ditambahkan pada sisi masukan untuk menjaga sinyal
+                        masukan agar bekerja dalam tempo bersamaan. Kendali ini membantu flip-flop lebih stabil. Detak ditambahkan sebelum sinyal S dan R masuk kedalam
+                        rangkaian flip-flop. Masing-masing sinyal masukan di NAND-kan dengan detak.
+                    </p>
+                    <p style="font-weight: bold">Flip Flop SR dengan tambahan detak</p>
+                    <img class="img-tabel-ff-sr" src="img/ff sr dengan detak.jpeg" alt="">
+                    <p> <br>
+                        Detak = 0 : tidak ada perubahan sinyal
+                        yang masuk ke dalam flip flop <br>
+                        Detak = 1 : kondisi keluaran flip flop, Q,
+                        akan menyesuaikan dengan kondisi
+                        masukan S dan R, berdasarkan aturan
+                        dalam tabel kebenaran
+                    </p>
+                    <p style="font-weight: bold">Simbol Flip Flop SR dengan tambahan detak</p>
+                    <img class="img-tabel-ff-sr" src="img/simbol ff sr dengan detak.jpeg" alt="">
+                    <p style="font-weight: bold"><br> Flip Flop SR Gerbang NAND</p>
+                    <img class="img-tabel-ff-sr" src="img/ff sr nand.jpeg" alt="">
+                    <p style="font-weight: bold"><br> Modifikasi Flip Flop SR Gerbang NAND</p>
+                    <img class="img-tabel-ff-sr" src="img/modifikasi ff sr nand.jpeg" alt="">
+                    
+                    <h4>
+                        <br><br> Flip-Flop D (Data)
+                    </h4>
+                    <br>
+                    <p>
+                        Flip-flop D mempunyai satu masukan yaitu D dan dua keluaran, Q dan Q'. Flip-flop D sering disebut flip-flop tunda (delay) dan flip-flop data. Kata tunda menunjukan apa yang terjadi pada data atau masukan. Data (0 atau 1) pada masukan D disimpan di dalam flip-flop hingga pulsa clock berikutnya. Flip-flop D dapat dibangun dari sebuah flip-flop RS, dengan masukan S=D, dan R=Ds. Simbol flip-flop D ditunjukkan dalam Gambar di bawah ini.
+                    </p>
+                    <img class="img-40" src="img/simbol ff d.jpeg" alt="">
+                    <p>
+                        Keluaran flip-flop D (Q) sama dengan masukannya saat clock aktif. Sedangkan saat clock tidak aktif, keluaran flip-flop D sama dengan keluaran sebelumnya. Flip-flop D banyak dipakai sebagai sel memori komputer. Hal ini dikarenakan sifat flip-flop D yang menahan data hingga pulsa clock berikutnya.
+                    </p>
+                    <p style="font-weight: bold">Tabel Kebenaran Flip-Flop D<Datag></Datag></p>
+                    <img class="img-60" src="img/tabel kebenaran ff d.jpeg" alt="">
+                    <h4>
+                        <br><br> Flip-Flop JK
+                    </h4>
+                    <br>
+                    <p>
+                        Flip-flop JK merupakan flip-flop universal dan paling luas penggunaannya. Hal ini disebabkan flip-flop JK mempunyai sifat dari seluruh flip-flop lainnya sehingga semua flip-flop jenis lain dapat dibangun dari flip-flop JK. Simbol flip-flop JK ditunjukkan dalam gambar di bawah ini.
+
+                    </p>
+                    <img class="img-40" src="img/simbol ff jk.jpeg" alt="">
+                    <p>
+                        <br> Flip-flop JK mempunyai dua masukan yaitu J dan K serta dua keluaran, Q dan Q'. Berbeda dengan flip-flop RS maupun D, flip-flop JK dipicu oleh tepi pulsa clock. Artinya, flip-flop JK tidak aktif sepanjang sinyal clock tinggi (1) atau rendah (0), melainkan aktif pada saat perubahan antara keduanya (tepi/pinggiran). Pemicuan flip-flop JK dapat terjadi saat clock berubah dari tinggi ke rendah (tepi turun) atau saat clock berubah dari rendah ke tinggi (tepi naik). 
+                    </p>
+                    <p>
+                        Rangkaian flip-flop JK mempunyai dua buah masukan, yaitu J dan K. Flip-flop JK mempunyai sifat yang mirip dengan flip-flop RS. Tetapi dalam flip-flop JK tidak terdapat kondisi terlarang seperti pada flip-flop RS. Ketika masukan J dan K sama-sama 1, maka nilai Q adalah kebalikan nilai Q sebelumnya (toggle).
+                    </p>
+                    <p>
+                        Masukan set (J=1, K=0) akan mengakibatkan flip-flop dalam keadaan set, atau Q=1. Masukan reset (K=1, J=0) akan mengakibatkan flip-flop dalam keadaan reset atau Q=O. Jika kedua masukan flip-flop JK bernilai 0, maka keluaran Q tidak ada perubahan atau sama dengan keluaran sebelumnya. Sedangkan apabila kedua masukan bernilai 1, maka nilai keluaran Q akan selalu berkebalikan dengan keluaran sebelumnya (toggle).
+                    </p>
+                    <p style="font-weight: bold">Tabel Kebenaran Flip-Flop JK<Datag></Datag></p>
+                    <img class="img-60" src="img/tabel kebenaran ff JK.jpeg" alt="">
+                    <h4>
+                        <br><br> Flip-Flop T (Toggle)
+                    </h4>
+                    <br>
+                    <p>
+                        Flip-flop T merupakan flip-flop yang mempunyai satu masukan yaitu T dan dua keluaran, Q dan Q'. Flip-flop T berasal dari kata toggle. Hal ini sebab flip-flop T mempunyai sifat utama membalik keluaran saat masukan T=1 dan clock aktif. Flip-flop T dapat dibuat dari sebuah flip-flop JK, dengan menghubungkan kaki J dan K ke masukan T, atau dengan kata lain, masukan J=T, dan K=T. Simbol flip-flop T ditunjukkan dalam gambar di bawah ini.
+
+                    </p>
+                    <img class="img-40" src="img/simbol ff t.jpeg" alt="">
+                    <p>
+                        <br> Saat masukan T=1, keluaran flip-flop T (Q) menjadi kebalikan dengan keluaran sebelumnya saat clock aktif. Saat masukan T=0, keluaran flip-flop T akan sama dengan keluaran sebelumnya. 
+                    </p>
+                    <p style="font-weight: bold">Tabel Kebenaran Flip-Flop T<Datag></Datag></p>
+                    <img class="img-60" src="img/tabel kebenaran ff t.jpeg" alt="">
+                    <p style="font-weight: bold"><br> Pewaktu T Flip-Flop dgn Masukan Asinkron Aktif LOW<Datag></Datag></p>
+                    <img class="img-60" src="img/ff t masukan asinkron.jpeg" alt="">
+                    <h4>
+                        <br> Karakteristik Operasi Flip-Flop
+                    </h4>
+                    <br>
+                    <p>
+                        Propagation Delay Time—Interval waktu yang dibutuhkan setelah
+                        sinyal masukan diterapkan untuk menghasilkan perubahan keluaran
+                    </p>
+                    <p>
+                        Set-up Time—interval minimum yang dibutuhkan level logika untuk
+                        tetap bertahan pada masukan (J dan K, atau S dan R, atau D)
+                        sebelumnya untuk memicu sisi pulsa pewaktu pada tingkat
+                        pewaktuan pada flip-flop.
+                    </p>
+                    <p>
+                        Hold Time—interval minimum yang dibutuhkan level logika untuk
+                        tinggal pada masukan setelah sisi pemicuan pulsa pewaktu pada
+                        tingkat pewaktuan pada flip-flop.
+                    </p>
+                    <p>
+                        Maximum Clock Frequency—Laju tertinggi sebuah flip-flop yang dapat dipercaya terpicu.
+                    </p>
+                    <p>
+                        Power Dissipation—konsumsi daya total piranti.
+                    </p>
+                    <p>
+                        Pulse Widths—lebar pulsa minimum masukan Clock, SET dan CLEAR.
+                    </p>
+                    <h4>
+                        <br> Tabel Eksitasi Flip-Flop
+                    </h4>
+                    <br>
+                    <img class="img-60" src="img/tabel eksitasi ff.jpeg" alt="">
+                    <p>
+                       <br> Tabel Karakteristik bermanfaat selama analisis rangkaian sekuensial ketika nilai masukan flip-flop diketahui dan ingin menemukan nilai keluaran flip-flop Q setelah sisi naik sinyal pewaktu. Seperti tabel kebenaran yang lain yang dapat memetakan persamaan karakteristik untuk setiap flip-flop.
+                    </p>
+                    <p>
+                        Selama proses desain biasanya diketahui transisi keadaan sekarang ke keadaan berikutnya dan ingin menemukan kondisi masukan flip-flop yang membutuhkan
+                        transisi. Untuk itu diperlukan tabel yang berisi daftar masukan yang dibutuhkan untuk memberikan perubahan yang sering disebut tabel eksitasi. Tabel berisi
+                        empat kemungkinan transisi dari keadaan sekarang ke keadaan. X menyatakan kondisi don’t care, artinya dapat bernilai 1 atau 0.
+                    </p>
+                    <h4>
+                        <br> Contoh Konversi Flip-Flop (Konversi D Flip-Flop ke T Flip-Flop)
+                    </h4>
+                    <br>
+                    <img class="img-60" src="img/ff d ke ff t.jpeg" alt="">
+                    <p>
+                       <br> Dibutuhkan desain rangkaian untuk
+                       membangkitkan sinyal pemicu D sebagai
+                       fungsi dari T dan Q yakni D = f (T, Q)
+                       . Kemudian dibutuhkan tabel eksitasi.
+                       Selanjutnya, menafsirkan D sebagai fungsi T dan
+                       sumber keadaan flip-flop Q dan Qn <br>
+                       D = T’Q + TQ = T ⊕ Q
+                    </p>
+                    <h4>
+                        <br> Aplikasi Flip-Flop
+                    </h4>
+                    <br><br>
+                    <p style="font-weight: bold">Pembagi Frekuensi<Datag></Datag></p>
+                    <img class="img-60" src="img/ff pembagi frekuensi.jpeg" alt="">
+                    <p> <br>
+                        Keluaran flip-flop kedua Q adalah
+                        1/4 frekuensi masukan pewaktu
+                        asli. Ini disebabkan frekuensi dari
+                        pewaktu dibagi dengan 2 oleh flipflop yang pertama kemudian dibagi
+                        2 lagi oleh flipflop yang kedua. Jika
+                        lebih banyak flip-flop yang
+                        dihubungkan dengan cara demikian,
+                        frekuensi dibagi dua dengan
+                        pangkat n, dimana n adalah jumlah
+                        flip-flop.
+                    </p>
+                    <p style="font-weight: bold">Penyimpanan Data Paralel<Datag></Datag></p>
+                    <br><br>
+                    <img class="img-40" src="img/penyimpanan data paralel.jpeg" alt="">
+                    <p> <br>
+                        Setiap tiga jalur data paralel
+                        dihubungkan ke masukan D flip-flop.
+                        Saat semua masukan pewaktu
+                        dihubungkanke pewaktu yang sama,
+                        data pada masukan D disimpan secara
+                        simultan oleh flip-flop pada sisi positif
+                        pewaktu.
+                    </p>
+                    <p style="font-weight: bold">Digital Counter<Datag></Datag></p>
+                    <br><br>
+                    <img class="img-40" src="img/digital counter.jpeg" alt="">
+                    <p> <br>
+                        Sebuah counter menghitung dari 0
+                        sampai 2 yang ditunjukkan dalam
+                        diagram waktu.sekuen biner dua bit
+                        berualang setiap pulsa waktu keempat.
+                        Ketika hitungan ketiga, siklus kembali
+                        ke 0 untuk memulai sekuen lagi.
+                    </p>
+                </div>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#2f3030" fill-opacity="1" d="M0,128L0,224L288,224L288,320L576,320L576,224L864,224L864,160L1152,160L1152,288L1440,288L1440,320L1152,320L1152,320L864,320L864,320L576,320L576,320L288,320L288,320L0,320L0,320Z"></path></svg>
+        </section>
+        <!-- Akhir Flip-Flop -->
+
+        <!-- Counter -->
+        <section id="counter" style="background-color: #2f3030">
+            <div class="container">
+                <div class="row text-center mb-3" style="color: #fff">
+                    <div class="col">
+                        <br><br><br>
+                        <h2>Counter</h2>
+                        <br><br>
+                    </div>
+                </div>
+                <div class="row text-start m-3" style="color: #fff">
+                    <p>
+                        Counter adalah sebuah rangkaian logika sekuensial yang tersusun dari beberapa flip-flop yang bekerja menurut urutan keadaan yang telah ditentukan. Secara umum, counter dipakai untuk menghitung berapa banyak pulsa masukan yang telah diberikan pada suatu rangkaian digital. Counter dibagi menjadi dua macam, yaitu Synchronous Counter dan  Asynchronous Counter.
+                    </p>
+                    <h4>
+                        Synchronous Counter
+                    </h4>
+                    <br>
+                    <p>
+                        Pada synchronous counter, flip-flop yang tersusun secara paralel dipicu oleh sumber clock yang sama. Gambar rangkaian synchronous counter ditunjukkan dalam gambar dibawah ini.
+                    </p>
+                    <img class="img-60" src="img/sy counter.jpeg" alt="">
+                    <h4>
+                        <br> Asynchronous Counter
+                    </h4>
+                    <br>
+                    <p>
+                        Pada asynchronous counter, flip-flop disusun secara seri. Untuk pemicuan flip-flop, minimal ada satu flip-flop yang clock-nya dipicu oleh keluaran flip-flop lain atau clock-nya berasal dari sumber yang berbeda. Gambar rangkaian asynchronous counter ditunjukkan dalam gambar di bawah ini.
+                    </p>
+                    <img class="img-60" src="img/asy counter.jpeg" alt="">
+                </div>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,128L0,224L288,224L288,320L576,320L576,224L864,224L864,160L1152,160L1152,288L1440,288L1440,320L1152,320L1152,320L864,320L864,320L576,320L576,320L288,320L288,320L0,320L0,320Z"></path></svg>
+        </section>
+        <!-- Akhir Counter -->
+
+        <!-- Referensi -->
+        <section id="referensi" style="background-color: #fff">
+            <div class="container" style="color: #2f3030">
+            <div class="row">
+            <div class="row text-center mb-3">
+                <div class="col">
+                    <br><br><br>
+                    <h2>Sumber Referensi</h2>
+                </div>
+            </div class="row">
+                <div class="col">
+                    <br>
+                    <div>
+                    <ul class="referensi">
+                        <a href="" style="color: #2f3030; text-decoration: none;"><li><p>Bahan Ajar Organisasi dan Arsitektur Komputer UIN Sunan Gunung Djati Pertemuan 7 - Rangkaian Sekuensial</p></li></a>
+                    </ul>
+                    <ul class="referensi">
+                        <a href="https://www.google.co.id/books/edition/Desain_Sistem_Digital/KBFTDwAAQBAJ?hl=id&gbpv=0" style="color: #2f3030; text-decoration: none;"><li><p>Prasetion, B.H. et al. 2017. Desain Sistem Digital
+                            Menggunakan FPGA dan VHDL Teori dan Aplikasi. Malang: UB Press.</p></li></a>
+                    </ul>
+                </div>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#fff" fill-opacity="1" d="M0,32L0,128L288,128L288,288L576,288L576,128L864,128L864,256L1152,256L1152,32L1440,32L1440,320L1152,320L1152,320L864,320L864,320L576,320L576,320L288,320L288,320L0,320L0,320Z">
+                </path>
+            </svg>
+        </section>
+        <!-- Akhir Referensi -->
+
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#2f3030" fill-opacity="1" d="M0,224L0,160L288,160L288,128L576,128L576,224L864,224L864,96L1152,96L1152,192L1440,192L1440,320L1152,320L1152,320L864,320L864,320L576,320L576,320L288,320L288,320L0,320L0,320Z"></path>
+        </svg>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    </body>
+</html>

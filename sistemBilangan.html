@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+    <head>
+        <title> Blog-ku | Sistem Bilangan </title>
+
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+        
+        <!-- Bootstrap Icon -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
+
+        <!-- My CSS -->
+        <link rel="stylesheet" href="style.css" />
+    </head>
+
+    <body id="home" style="background-color: #fff">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark shadow-sm fixed-top" style="background-color: #000;">
+            <div class="container">
+            <a class="navbar-brand" href="index.html#home" style="color: #fff; font-weight: bold;">
+                <img src="img/calon logo 2.png" alt="Logo" width="24" height="26" class="d-inline-block align-text-top">
+                Blog-ku
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" style="color: #fff" aria-current="page" href="index.html#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="color: #fff" href="index.html#topics">Topik</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="color: #fff" href="#pengertian">Pengertian</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="color: #fff" href="#basis-bilangan">Basis Bilangan</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="color: #fff" href="#desimal">Desimal</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="color: #fff" href="#biner">Biner</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="color: #fff" href="#oktal">Oktal</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="color: #fff" href="#heksadesimal">Heksadesimal</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="color: #fff" href="#penjumlahan-biner">Penjumlahan Biner</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="color: #fff" href="#overflow">Overflow</a>
+                </li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+        <!-- Akhir Navbar -->
+
+        <!-- Home -->
+        <section id="about" style="background-color: #2f3030">
+            <div class="container" style="color: #fff">
+                <br><br><br><br>
+            <div class="row">
+                <center><img width="100px" height="100px" src="img/calon logo 2.png" alt=""></center>
+                <br><br>
+            </div>
+            <br><br>
+            <div class="row text-center mb-3">
+                <div class="col">
+                    <h1>Sistem Bilangan</h1>
+                </div>
+            </div>
+            <div class="row justify-content-center fs-5 text-start">
+                <center><div class="col">
+                    Pancadrya Y.P. | 18 November 2022
+                </div>
+                </div>
+                </center>
+            </div>
+            <div class="container">
+            <div class="row justify-content-center fs-5 text-center">
+            <div class="col-md-2 mb-3"><img src="img/Icon/1.svg" alt="" width="100"></div>
+            <div class="col-md-2 mb-3"><img src="img/Icon/2.svg" alt="" width="100"></div>
+            <div class="col-md-2 mb-3"><img src="img/Icon/3.svg" alt="" width="110"></div>
+            <div class="col-md-2 mb-3"><img src="img/Icon/4.svg" alt="" width="100"></div>
+            <div class="col-md-2 mb-3"><img src="img/Icon/5.svg" alt="" width="100"></div>  
+            </div>
+            </div>  
+            <br><br><br><br><br>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#fff" fill-opacity="1" d="M0,32L0,128L288,128L288,288L576,288L576,128L864,128L864,256L1152,256L1152,32L1440,32L1440,320L1152,320L1152,320L864,320L864,320L576,320L576,320L288,320L288,320L0,320L0,320Z">
+                </path>
+            </svg>
+        </section>
+        <!-- Akhir home -->
+
+        <!-- Pengertian -->
+        <section id="pengertian">
+            <div class="container">
+            <div class="row text-center mb-3" style="color: #2f3030">
+                <div class="col">
+                    <br><br><br>
+                <h2>Pengertian Sistem Bilangan</h2>
+                <br>
+                <img class="img-pengertian-sisBil" src="https://cdn.pixabay.com/photo/2016/04/19/12/59/pi-1338548_960_720.jpg" alt="">
+                <br><br>
+                <center><p>Sumber: pixabay.com</p></center>
+                <br>
+                </div>
+            </div>
+            <div class="row text-start m-3" style="color: #2f3030">
+                <p>
+                    Menurut Kamus Besar Bahasa Indonesia, sistem adalah perangkat unsur yang secara teratur saling berkaitan sehingga membentuk suatu totalitas; susunan yang teratur dari pandangan, teori, asas, dan sebagainya; metode. Sedangkan bilngan dalam bidang matematis adalah satuan dalam sistem matematis yang abstrak dan dapat diunitkan, ditambah, atau dikalikan.
+                </p>
+                <p>
+                    Berdasarkan pengertian di atas, dapat dikatakan bahwasannya sistem bilangan adalah perangkat unsur satuan dalam sistem matematis yang abstrak yang secara teratur saling berkaitan sehingga membentuk suatu totalitas, dapat diunitkan, ditambah, atau dikalikan. Sistem bilangan muncul karena komputer melakukan operasi menggunakan sistem bilangan tertentu, biasanya sistem biner (Hutahaean, 2015).
+                </p>
+                <P>
+                    Sistem bilangan yang dikenal pada umumnya terbagi menjadi empat, yaitu desimal (basis 10), biner (basis 2), oktal (basis 8) dan hexadesimal (basis 16). Basis suatu sistem bilangan adalah sembarang angka, termasuk 0, yang terdapat pada suatu sistem bilangan. Sebenarnya masih terdapat basis bilangan lainnya, tetapi basis bilangan-basis bilangan tersebut tidak umum digunakan dalam perhitungan dalam komputer. 
+                </P>
+            </div>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#2f3030" fill-opacity="1" d="M0,96L0,128L288,128L288,224L576,224L576,96L864,96L864,256L1152,256L1152,128L1440,128L1440,320L1152,320L1152,320L864,320L864,320L576,320L576,320L288,320L288,320L0,320L0,320Z">
+            </path>
+            </svg>
+        </section>
+
+        <!-- Basis Bilangan -->
+        <section id="basis-bilangan" style="background-color: #2f3030">
+            <div class="container">
+                <div class="row text-center mb-3" style="color: #fff">
+                    <div class="col">
+                        <br><br><br>
+                        <h2>Basis Bilangan</h2>
+                        <br><br>
+                        <center><img class="img-basis-bilangan" src="img/tabel sisBil.jpeg" alt=""></center>
+                        <br>
+                    </div>
+                </div>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,128L0,224L288,224L288,320L576,320L576,224L864,224L864,160L1152,160L1152,288L1440,288L1440,320L1152,320L1152,320L864,320L864,320L576,320L576,320L288,320L288,320L0,320L0,320Z"></path></svg>
+        </section>
+        <!-- Akhir Basis Bilangan -->
+
+        <!-- Desimal -->
+        <section id="desimal" style="background-color: #fff">
+            <div class="container">
+                <div class="row text-center mb-3" style="color: #2f3030">
+                    <div class="col">
+                        <br><br><br>
+                        <h2>Desimal (Denary)</h2>
+                        <br><br>
+                    </div>
+                </div>
+                <div class="row text-start m-3" style="color: #2f3030">
+                    <p>
+                        Sistem bilangan desimal merupakan sistem bilangan dengan basis 10 dan berasal dari jari manusia, dikenal sebagai ‘digit’. Sistem ini merupakan sistem bilangan yang menggunakan 10 simbol/angka, yaitu 0, 1, 2, 3, 4, 5, 6, 7, 8, dan 9. Dalam kehidupan sehari-hari, kita biasanya menggunakan sistem desimal ini, seperti dalam perhitungan sederhana, transaksi jual-beli, notasi ilmiah, dan lain-lain.
+                    </p>
+                    <p>
+                        Pada sistem bilangan desimal, bilangan di atas nilai 9 (nilai tertinggi dari simbol yang digunakan), mulai dilambangkan dengan 2 digit angka. Seperti yang umum kita lakukan, untuk nilai di atas 9 akan ditampilkan dengan 10 (simbol kedua diikuti simbol pertama) sesuai penggunaan angka sehari-hari (Sujoso, 2022).
+                    </p>
+                </div>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#2f3030" fill-opacity="1" d="M0,128L0,224L288,224L288,320L576,320L576,224L864,224L864,160L1152,160L1152,288L1440,288L1440,320L1152,320L1152,320L864,320L864,320L576,320L576,320L288,320L288,320L0,320L0,320Z"></path></svg>
+        </section>
+        <!-- Akhir Desimal-->
+
+        <!-- Biner -->
+        <section id="biner" style="background-color: #2f3030">
+            <div class="container">
+                <div class="row text-center mb-3" style="color: #fff">
+                    <div class="col">
+                        <br><br><br>
+                        <h2>Biner (Binary)</h2>
+                    </div>
+                </div>
+                <br><br>
+                <div class="row text-start m-3" style="color: #fff">
+                    <p>
+                        Sistem bilangan biner merupakan sistem bilangan dengan basis 2. Sistem ini merupakan sistem bilangan yang menggunakan 2 simbol/angka, yaitu 0 dan 1. Sebagai tambahan, 1 byte setara dengan 8 bit.
+                    </p>
+                    <p>
+                        Pada sistem bilangan biner, bilangan di atas nilai 1 (nilai tertinggi dari simbol yang digunakan), mulai harus dinyatakan menggunakan 2 simbol/angka (2 digit). Oleh karena itu, untuk nilai 2 (desimal) harus ditampilkan dengan 10 (biner) sebagai tampilan bilangan biner yang senilai dengan 2 (desimal); nilai 3 (desimal) ditampilkan dengan 11 (biner) (Sujoso, 2022). 
+                    </p>
+                    <br><br><br><br>
+                    <h5>
+                        Contoh Angka Pada Bilangan Biner
+                    </h5>
+                    <br><br>
+                    <p>
+                        Biner &ensp;&ensp;&ensp;&ensp;|&ensp;&ensp; Desimal <br>
+                        1 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; | &ensp; 1 <br>
+                        10 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp; | &ensp; 2 <br>
+                        11 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp; | &ensp; 3 <br>
+                        100 &ensp;&ensp;&ensp;&ensp;&ensp; | &ensp; 4 <br>
+                        101 &ensp;&ensp;&ensp;&ensp;&ensp; | &ensp; 5 <br>
+                        110 &ensp;&ensp;&ensp;&ensp;&ensp; | &ensp; 6 <br>
+                        111 &ensp;&ensp;&ensp;&ensp;&ensp; | &ensp; 7 <br>
+                        1000 &ensp;&ensp;&ensp;&ensp; | &ensp; 8 <br>
+                        1001 &ensp;&ensp;&ensp;&ensp; | &ensp; 9 <br>
+                        1010 &ensp;&ensp;&ensp;&ensp; | &ensp; 10 <br>
+                    </p>
+                    <br><br><br>
+                    <h5>
+                        Contoh Konversi Biner ke Desimal
+                    </h5>
+                    <br><br>
+                    <p>
+                        101<sub>2</sub> = (1 x 2<sup>0</sup>) + (0 x 2<sup>1</sup>) + (1 x 2<sup>2</sup>) <br>
+                        101<sub>2</sub> = (1 x 1) + (0 x 1) + (1 x 4) <br>
+                        101<sub>2</sub> = 1 + 0 + 4 <br>
+                        101<sub>2</sub> = 5<sub>10</sub>
+                    </p>
+                    <h5>
+                        Contoh Konversi Desimal ke Biner
+                    </h5>
+                    <br><br>
+                    <p>
+                        125<sub>10</sub> = 125 / 2&ensp;= 62 sisa 1<br>
+                        125<sub>10</sub> = 62 / 2&ensp;&ensp;= 31 sisa 0<br>
+                        125<sub>10</sub> = 31 / 2&ensp;&ensp;= 15 sisa 1<br>
+                        125<sub>10</sub> = 15 / 2&ensp;&ensp;= 7 &ensp;sisa 1<br>
+                        125<sub>10</sub> = 7 / 2&ensp;&ensp;&ensp;= 3 &ensp;sisa 1<br>
+                        125<sub>10</sub> = 3 / 2&ensp;&ensp;&ensp;= 1 &ensp;sisa 1<br>
+                        125<sub>10</sub> = 1 / 2&ensp;&ensp;&ensp;= 0 &ensp;sisa 1<br>
+                        125<sub>10</sub> = 1111101<sub>2</sub>
+                    </p>
+                </div>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,128L0,224L288,224L288,320L576,320L576,224L864,224L864,160L1152,160L1152,288L1440,288L1440,320L1152,320L1152,320L864,320L864,320L576,320L576,320L288,320L288,320L0,320L0,320Z"></path></svg>
+        </section>
+        <!-- Akhir Biner -->
+
+        <!-- Oktal -->
+        <section id="oktal" style="background-color: #fff">
+            <div class="container">
+                <div class="row text-center mb-3" style="color: #2f3030">
+                    <div class="col">
+                        <br><br><br>
+                        <h2>Oktal</h2>
+                    </div>
+                </div>
+                <br><br>
+                <div class="row text-start m-3" style="color: #2f3030">
+                    <p>
+                        Sistem bilangan oktal merupakan sistem bilangan dengan basis 8. Sistem ini merupakan sistem bilangan yang menggunakan 8 simbol/angka, yaitu 0, 1, 2, 3, 4, 5, 6, dan 7. Bilangan oktal dapat diperoleh dari kumpulan 3 bit bilangan biner.
+                    </p>
+                    <p>
+                        Pada sistem bilangan oktal, bilangan di atas nilai 7 (nilai tertinggi dari simbol yang digunakan), mulai harus dinyatakan menggunakan 2 simbol/angka (2 digit). Oleh karena itu, untuk nilai 8 (desimal) harus ditampilkan dengan 10 (oktal) sebagai tampilan bilangan oktal yang senilai dengan 8 (desimal); nilai 9 (desimal) ditampilkan dengan 11 (oktal) (Sujoso, 2022). 
+                    </p>
+                    <br><br><br><br><br>
+                    <h5>
+                        Contoh Angka Pada Bilangan Oktal
+                    </h5>
+                    <br><br>
+                    <p>
+                        Oktal &ensp;&ensp;|&ensp;&ensp; Desimal <br>
+                        1 &ensp;&ensp;&ensp;&ensp;&ensp; | &ensp; 1 <br>
+                        2 &ensp;&ensp;&ensp;&ensp;&ensp; | &ensp; 2 <br>
+                        3 &ensp;&ensp;&ensp;&ensp;&ensp; | &ensp; 3 <br>
+                        4 &ensp;&ensp;&ensp;&ensp;&ensp; | &ensp; 4 <br>
+                        5 &ensp;&ensp;&ensp;&ensp;&ensp; | &ensp; 5 <br>
+                        6 &ensp;&ensp;&ensp;&ensp;&ensp; | &ensp; 6 <br>
+                        7 &ensp;&ensp;&ensp;&ensp;&ensp; | &ensp; 7 <br>
+                        10 &ensp;&ensp;&ensp;&ensp; | &ensp; 8 <br>
+                        11 &ensp;&ensp;&ensp;&ensp; | &ensp; 9 <br>
+                        12 &ensp;&ensp;&ensp;&ensp; | &ensp; 10 <br>
+                    </p>
+                    <br><br><br>
+                    <h5>
+                        Contoh Konversi Oktal ke Desimal
+                    </h5>
+                    <br><br>
+                    <p>
+                        21<sub>8</sub> = (1 x 8<sup>0</sup>) + (2 x 8<sup>1</sup>) <br>
+                        21<sub>8</sub> = (1 x 1) + (2 x 8) <br>
+                        21<sub>8</sub> = 1 + 16 <br>
+                        21<sub>8</sub> = 17<sub>10</sub>
+                    </p>
+                    <h5>
+                        Contoh Konversi Desimal ke Oktal
+                    </h5>
+                    <br><br>
+                    <p>
+                        28<sub>10</sub> = 28 / 8&ensp;= 3 sisa 4<br>
+                        28<sub>10</sub> = 3 / 8&ensp;&ensp;= 0 sisa 3<br>
+                        28<sub>10</sub> = 34<sub>8</sub>
+                    </p>
+                    </p>
+                    <h5>
+                        Contoh Konversi Biner ke Oktal
+                    </h5>
+                    <br><br>
+                    <p>
+                        1011<sub>2</sub> = ... <sub>8</sub> <br>
+                        1011<sub>2</sub> dikelompokkan per 3 bit menjadi (00)1 001<sub>2</sub> <br>
+                        001<sub>2</sub> = 1<sub>10</sub> <br>
+                        001<sub>2</sub> = 1<sub>10</sub> <br>
+                        1011<sub>2</sub> = 11<sub>10</sub> <br>
+                        1011<sub>2</sub> = 11 / 8&ensp;= 1 sisa 3 <br>
+                        1011<sub>2</sub> = 3 / 8&ensp;&ensp;= 0 sisa 1 <br>
+                        1011<sub>2</sub> = 13<sub>8</sub> <br>
+                    </p>
+                </div>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#2f3030" fill-opacity="1" d="M0,128L0,224L288,224L288,320L576,320L576,224L864,224L864,160L1152,160L1152,288L1440,288L1440,320L1152,320L1152,320L864,320L864,320L576,320L576,320L288,320L288,320L0,320L0,320Z"></path></svg>
+        </section>
+        <!-- Akhir OKtal -->
+
+        <!-- Heksadesimal -->
+        <section id="heksadesimal" style="background-color: #2f3030">
+            <div class="container">
+                <div class="row text-center mb-3" style="color: #fff">
+                    <div class="col">
+                        <br><br><br>
+                        <h2>Heksadesimal</h2>
+                    </div>
+                </div>
+                <br><br>
+                <div class="row text-start m-3" style="color: #fff">
+                    <p>
+                        Sistem bilangan heksadesimal merupakan sistem bilangan dengan basis 16. Sistem ini merupakan sistem bilangan yang menggunakan 16 simbol/angka, yaitu 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, dan F. Penting untuk diketahui, heksa memiliki arti 6 dan desimal memliki arti 10. Kedua kata tersebut melambangkan adanya 6 huruf dan 10 angka pada sistem heksadesimal. Huruf yang ada diperlakukan seperti angka, misalnya A sebagai angka 10, dan secara berurutan sampai F sebagai angka 15. Salah satu manfaat sistem bilangan ini adalah mamntau tampilan alamat memori yang dipakai dalam pemrograman komputer. 
+                    </p>
+                    <p>
+                        Pada sistem bilangan heksadesimal, bilangan di atas nilai F atau 15 (nilai tertinggi dari simbol yang digunakan), mulai harus dinyatakan menggunakan 2 simbol/angka (2 digit). Oleh karena itu, untuk nilai 16 (desimal) harus ditampilkan dengan 10 (heksadesimal); nilai 17 (desimal) ditampilkan dengan 11 (heksadesimal) (Sujoso, 2022).
+                    </p>
+                    <h5>
+                        Contoh Konversi Heksadesimal ke Desimal
+                    </h5>
+                    <br><br>
+                    <p>
+                        79AF<sub>16</sub> = (F x 16<sup>0</sup>) + (A x 16<sup>1</sup>) + (9 x 16<sup>2</sup>) + (7 x 16<sup>3</sup>) <br>
+                        79AF<sub>16</sub> = (15 x 1) + (10 x 16) + (9 x 256) + (7 x 4096) <br>
+                        79AF<sub>16</sub> = 15 + 160 + 2304 + 28672 <br>
+                        79AF<sub>16</sub> = 31.151<sub>10</sub>
+                    </p>
+                    <h5>
+                        Contoh Konversi Desimal ke Heksadesimal
+                    </h5>
+                    <br><br>
+                    <p>
+                        16<sub>10</sub> = 16 / 16&ensp;= 1 sisa 0<br>
+                        16<sub>10</sub> = 1 / 16&ensp;&ensp;= 0 sisa 1<br>
+                        16<sub>10</sub> = 10<sub>16</sub>
+                    </p>
+                    </p>
+                    <h5>
+                        Contoh Konversi Heksadesimal ke Biner
+                    </h5>
+                    <br><br>
+                    <p>
+                        Konvesi bilangan Heksadesmil ke Biner, dapat dilakukan dengan mengganti bilangan heksa menjadi bilangan biner 4 bit terlebih dahulu.
+                    </p>
+                    <p>
+                        7&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;= 0111 <br>
+                        9&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;= 1001 <br>
+                        A&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;= 1010 <br>
+                        F&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;= 1111 <br>
+                        79AF<sub>16</sub>&ensp;= 0111100110101111<sub>2</sub>
+                    </p>
+                    <h5>
+                        Contoh Konversi Biner ke Heksadesimal 
+                    </h5>
+                    <br><br>
+                    <p>
+                        Kelompokkan bilangan Biner menjadi 4 bit “001 1101 1011”, kemudian konfersi ke dalam bilangan desimal lalu bilangan heksadesimal.
+                    </p>
+                    <p>
+                        00111011011<sub>2</sub> = ...<sub>16</sub> <br>
+                        001&ensp;&ensp;= 1<sub>10</sub> <br>
+                        1101&ensp;= 13<sub>10</sub> = D<sub>16</sub> <br>
+                        1011&ensp;= 11<sub>10</sub> = B<sub>10</sub> <br>
+                        00111011011<sub>2</sub> = 1DB<sub>16</sub> <br>
+                    </p>
+                </div>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,128L0,224L288,224L288,320L576,320L576,224L864,224L864,160L1152,160L1152,288L1440,288L1440,320L1152,320L1152,320L864,320L864,320L576,320L576,320L288,320L288,320L0,320L0,320Z"></path></svg>
+        </section>
+        <!-- Akhir Heksadesimal -->
+
+        <!-- Penjumlahan Biner -->
+        <section id="penjumlahan-biner" style="background-color: #fff">
+            <div class="container">
+                <div class="row text-center mb-3" style="color: #2f3030">
+                    <div class="col">
+                        <br><br><br>
+                        <h2>Penjumlahan Biner</h2>
+                        <br><br>
+                        <center><img class="img-penjumlahan-biner" src="img/penjumlahan biner.jpeg" alt=""></center>
+                        <br>
+                    </div>
+                </div>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#2f3030" fill-opacity="1" d="M0,128L0,224L288,224L288,320L576,320L576,224L864,224L864,160L1152,160L1152,288L1440,288L1440,320L1152,320L1152,320L864,320L864,320L576,320L576,320L288,320L288,320L0,320L0,320Z"></path></svg>
+        </section>
+        <!-- Akhir Penjumlahan Biner -->
+
+        <!-- Overflow -->
+        <section id="overflow" style="background-color: #2f3030">
+            <div class="container">
+                <div class="row text-center mb-3" style="color: #fff">
+                    <div class="col">
+                        <br><br><br>
+                        <h2>Overflow</h2>
+                    </div>
+                </div>
+                <br><br>
+                <div class="row text-start m-3" style="color: #fff">
+                    <p>
+                        OIverflow dapat diartikan sebagai kelebihan digit. Sebagai contoh, bilangan 4 bit hanya dapat menampung bilangan dari 0 - 15, penjumlahan yang menghasilkan 5 bit tidak dapat ditampung dalam 4 bit, sehingga agar dapat ditampung dalam 4 bit, bit terakhir yang paling kiri akan dibuang.
+                    </p>
+                    <br><br><br><br><br>
+                    
+                </div>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,128L0,224L288,224L288,320L576,320L576,224L864,224L864,160L1152,160L1152,288L1440,288L1440,320L1152,320L1152,320L864,320L864,320L576,320L576,320L288,320L288,320L0,320L0,320Z"></path></svg>
+        </section>
+        <!-- Akhir Overflow -->
+
+        
+        <!-- Referensi -->
+        <section id="referensi" style="background-color: #fff">
+            <div class="container" style="color: #2f3030">
+            <div class="row">
+            <div class="row text-center mb-3">
+                <div class="col">
+                    <br><br><br>
+                    <h2>Sumber Referensi</h2>
+                </div>
+            </div class="row">
+                <div class="col">
+                    <br>
+                    <div>
+                    <ul class="referensi">
+                        <a href="" style="color: #2f3030; text-decoration: none;"><li><p>Bahan Ajar Organisasi dan Arsitektur Komputer UIN Sunan Gunung Djati Pertemuan 3 - Sistem Bilangan</p></li></a>
+                    </ul>
+                    <ul class="referensi">
+                        <a href="https://books.google.co.id/books?hl=id&lr=&id=o8LjCAAAQBAJ&oi=fnd&pg=PR7&dq=sistem+bilangan&ots=t-weykI-aN&sig=ZbTEAS6mH1Mr2PW5tZGBUiy8cd0&redir_esc=y#v=onepage&q=sistem%20bilangan&f=false" style="color: #2f3030; text-decoration: none;"><li><p>Hutahaean, Jeperson. 2015. Konsep Sistem Informasi. Yogyakarta: Deepublish.</p></li></a>
+                    </ul>
+                    <ul class="referensi">
+                        <a href="https://www.google.co.id/books/edition/Sistem_Bilangan_Berdasar_55_SBB55/GVR0EAAAQBAJ?hl=id" style="color: #2f3030; text-decoration: none;"><li><p>Sujoso, Purwadi Djoko. Sistem Bilangan Berdasar 55 (SBB55) Menyederhanakan Tanggal, Jam dan NIK Menghemat Berbagai Media Data Elektronik. Makassar: Nas Media Pustaka.</p></li></a>
+                    </ul>
+                </div>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#fff" fill-opacity="1" d="M0,32L0,128L288,128L288,288L576,288L576,128L864,128L864,256L1152,256L1152,32L1440,32L1440,320L1152,320L1152,320L864,320L864,320L576,320L576,320L288,320L288,320L0,320L0,320Z">
+                </path>
+            </svg>
+        </section>
+        <!-- Akhir Referensi -->
+
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#2f3030" fill-opacity="1" d="M0,224L0,160L288,160L288,128L576,128L576,224L864,224L864,96L1152,96L1152,192L1440,192L1440,320L1152,320L1152,320L864,320L864,320L576,320L576,320L288,320L288,320L0,320L0,320Z"></path>
+        </svg>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    </body>
+</html>

@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+    <head>
+        <title> Blog-ku | Rangkaian Logika Kombinasional </title>
+
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+        
+        <!-- Bootstrap Icon -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
+
+        <!-- My CSS -->
+        <link rel="stylesheet" href="style.css" />
+    </head>
+
+    <body id="home" style="background-color: #2f3030">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark shadow-sm fixed-top" style="background-color: #000;">
+            <div class="container">
+            <a class="navbar-brand" href="index.html#home" style="color: #fff; font-weight: bold;">
+                <img src="img/calon logo 2.png" alt="Logo" width="24" height="26" class="d-inline-block align-text-top">
+                Blog-ku
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" style="color: #fff" aria-current="page" href="index.html#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="color: #fff" href="index.html#topics">Topik</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="color: #fff" href="#pengertian">Pengertian</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="color: #fff" href="#prosedur-desain">Prosedur Desain</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="color: #fff" href="#half-adder">Half Adder</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="color: #fff" href="#full-adder">Full Adder</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="color: #fff" href="#multiplexer">Multiplexer 2 ke 1</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="color: #fff" href="#decoder">Decoder</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="color: #fff" href="#contoh-kasus">Contoh Kasus</a>
+                </li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+        <!-- Akhir Navbar -->
+
+        <!-- Home -->
+        <section id="about" style="background-color: #2f3030">
+            <div class="container" style="color: #fff">
+                <br><br><br><br>
+            <div class="row">
+                <center><img width="100px" height="100px" src="img/calon logo 2.png" alt=""></center>
+                <br><br>
+            </div>
+            <br><br>
+            <div class="row text-center mb-3">
+                <div class="col">
+                    <h1>Rangkaian Logika Kombinasional</h1>
+                </div>
+            </div>
+            <div class="row justify-content-center fs-5 text-start">
+                <center><div class="col">
+                    Pancadrya Y.P. | 22 November 2022
+                </div>
+                </div>
+                </center>
+            </div>
+            <div class="container">
+            <div class="row justify-content-center fs-5 text-center">
+            <div class="col-md-2 mb-3"><img src="img/Icon/1.svg" alt="" width="100"></div>
+            <div class="col-md-2 mb-3"><img src="img/Icon/2.svg" alt="" width="100"></div>
+            <div class="col-md-2 mb-3"><img src="img/Icon/3.svg" alt="" width="110"></div>
+            <div class="col-md-2 mb-3"><img src="img/Icon/4.svg" alt="" width="100"></div>
+            <div class="col-md-2 mb-3"><img src="img/Icon/5.svg" alt="" width="100"></div>  
+            </div>
+            </div>  
+            <br><br><br><br><br>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#fff" fill-opacity="1" d="M0,32L0,128L288,128L288,288L576,288L576,128L864,128L864,256L1152,256L1152,32L1440,32L1440,320L1152,320L1152,320L864,320L864,320L576,320L576,320L288,320L288,320L0,320L0,320Z">
+                </path>
+            </svg>
+        </section>
+        <!-- Akhir home -->
+
+        <!-- Pengertian -->
+        <section id="pengertian"  style="background-color: #fff">
+            <div class="container">
+            <div class="row text-center mb-3" style="color: #2f3030">
+                <div class="col">
+                    <br><br><br>
+                <h2>Pengertian Logika Kombinasional</h2>
+                <br>
+                <img class="img-pengertian-gerlog" src="https://cdn.pixabay.com/photo/2021/02/16/21/21/programming-6022434_960_720.png" alt="">
+                <br><br>
+                <center><p>Sumber: pixabay.com</p></center>
+                <br>
+                </div>
+            </div>
+            <div class="row text-start m-3" style="color: #2f3030">
+                <p>
+                    Rangkaian logika Kombinasional dapat diartikan sebagai rangkaian yang dibagun dari kombinasi atau penggabungan gerbang-gerbang logika yang ada di dalamnya dan hanya bergantung pada nilai-nilai masukan/inputan. Dengan kata lain, rangkaian logika kombinasional merupakan suatu rangkaian digital yang terdiri dari beberapa gerbang logika yang output-nya hanya tergantung pada kombinasi input-input-nya saja, dan tidak tergantung pada keadaan output sebelumnya. Setiap kombinasi input akan menghasilkan satu output. Pada umumnya, rangkaian ini terdiri dari m-input dan n-output (Arifin et al, 2019). 
+                </p>
+                <p>
+                    Penjabaran rangkaian logika kombinasional dapat dilakukan dengan memakai persamaan logika yang dibedakan menjadi dua bentuk, yaitu Sum of Product (SOP) dan Product of Sum (POS).
+                </p>
+                <h4>
+                    <br>Sum of Product (SOP)
+                </h4>
+                <img class="img-sop" src="img/sop.jpeg" alt="">
+                <p>
+                    Persamaan bentuk SOP tercipta dari dua atau lebih gerbang logika AND yang kemudian di-OR-kan pada tanda kurung, kemudian di dalam tanda kurung tersebut bisa jadi terdiri dari dua buah variabel maupun lebih. Singkatnya, SOP merupakan bentuk persamaan yang menjalankan operasi OR terhadap AND.
+                </p>
+                <h4>
+                    <br>Product of Sum (POS)
+                </h4>
+                <img class="img-pos" src="img/pos.jpeg" alt="">
+                <p>
+                    Persamaan bentuk POS tercipta dari dua atau lebih gerbang logika OR yang kemudian di-AND-kan (dalam persamaan ini dapat berisi dua atau Iebih variabel). Secara singkat dapat dikatakan bahwa POS merupakan bentuk persamaan yang menjalankan operasi AND terhadap keluaran-keluaran OR.
+                </p>
+            </div>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#2f3030" fill-opacity="1" d="M0,96L0,128L288,128L288,224L576,224L576,96L864,96L864,256L1152,256L1152,128L1440,128L1440,320L1152,320L1152,320L864,320L864,320L576,320L576,320L288,320L288,320L0,320L0,320Z">
+            </path>
+            </svg>
+        </section>
+
+        <!-- Prosedur Desain -->
+        <section id="prosedur-desain" style="background-color: #2f3030">
+            <div class="container">
+                <div class="row text-center mb-3" style="color: #fff">
+                    <div class="col">
+                        <br><br><br>
+                        <h2>Prosedur Desain</h2>
+                    </div>
+                </div>
+                <br><br>
+                <div class="row text-start m-3" style="color: #fff">
+                    <ol>
+                        <li>&emsp;Menentukan Spesifikasi Rangkaian</li>
+                        <li>&emsp;Menentukan Algoritma</li>
+                        <li>&emsp;Menentukan Tabel Kebenaran</li>
+                        <li>&emsp;Menentukan Fungsi Keluaran Rangkaian                        </li>
+                        <li>&emsp;Menentukan Diagram Logika</li>
+                        <li>&emsp;Menguji Hasil Keluaran</li>
+                    </ol>
+                </div>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,128L0,224L288,224L288,320L576,320L576,224L864,224L864,160L1152,160L1152,288L1440,288L1440,320L1152,320L1152,320L864,320L864,320L576,320L576,320L288,320L288,320L0,320L0,320Z"></path></svg>
+        </section>
+        <!-- Akhir Prosedur Desain -->
+
+        <!-- Desain Rangkaian Aritmatika Dasar (Half Adder) -->
+        <section id="half-adder" style="background-color: #fff">
+            <div class="container">
+                <div class="row text-center mb-3" style="color: #2f3030">
+                    <div class="col">
+                        <br><br><br>
+                        <h2>Desain Rangkaian Aritmatika Dasar (Half Adder)</h2>
+                        <br><br>
+                    </div>
+                </div>
+                <div class="row text-start m-3" style="color: #2f3030">
+                    <p>
+                        Half adder adalah salah satu jenis rangkaian adder yang menjumlahkan dua buah bit input, dan menghasilkan nilai jumlahan (sum) dan nilai lebihnya (carry-out). Half Adder diletakkan sebagai penjumlah dari bit-bit terendah (LeastSignificant Bit) (Siregar dan Irawan, 2018). 
+                    </p>
+                    <h4>
+                        <br>Operasi (Berhubungan dengan prosedur 1 dan 2)
+                    </h4>
+                    <br>
+                    <img class="img-simbol-and" src="img/operasi half adder.jpeg" alt="">
+                    <h4>
+                        <br>Tabel Kebenaran (Prosedur 3)
+                    </h4>
+                    <br>
+                    <img class="img-tabel-and" src="img/tabel kebenaran half adder.jpeg" alt="">
+                    <h4>
+                        <br>K-Map dari Tabel Kebenaran (Prosedur 4)
+                    </h4>
+                    <br>
+                    <img class="img-tabel-and" src="img/k-map half adder.jpeg" alt="">
+                    <h4>
+                        <br>Hasil Realisasi Rangkaian Half Adder (Prosedur 5)
+                    </h4>
+                    <br>
+                    <img class="img-tabel-and" src="img/hasil realisasi half adder.jpeg" alt="">
+                </div>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#2f3030" fill-opacity="1" d="M0,128L0,224L288,224L288,320L576,320L576,224L864,224L864,160L1152,160L1152,288L1440,288L1440,320L1152,320L1152,320L864,320L864,320L576,320L576,320L288,320L288,320L0,320L0,320Z"></path></svg>
+        </section>
+        <!-- Akhir Desain Rangkaian Aritmatika Dasar (Half Adder)-->
+
+        <!-- Rangkaian Full Adder -->
+        <section id="full-adder" style="background-color: #2f3030">
+            <div class="container">
+                <div class="row text-center mb-3" style="color: #fff">
+                    <div class="col">
+                        <br><br><br>
+                        <h2>Rangkaian Full Adder</h2>
+                        <br><br>
+                    </div>
+                </div>
+                <div class="row text-start m-3" style="color: #fff">
+                    <p>
+                        Rangkaian Full Adder adalah jenis rangkaian adder yang menjumlahkan dua bilangan yang telah dikonversikan menjadi bilangan-bilangan biner. Masing-masing bit pada posisi yang sama saling dijumlahkan. Full adder sebagai penjumlah pada bit-bit selain yang terendah.Full adder menjumlahkan dua bit input ditambah dengan nilai carry-out dari penjumlahan bit sebelumnya. Output dari Full Adder adalah hasil penjumlahan (Sum) dan bit kelebihannya (carryout). 
+                    </p>
+                    <h4>
+                        <br>Tabel Kebenaran
+                    </h4>
+                    <br>
+                    <img class="img-simbol-full-adder" src="img/tabel kebenaran full adder.jpeg" alt="">
+                    <h4>
+                        <br>K-Map
+                    </h4>
+                    <br>
+                    <img class="img-tabel-or" src="img/k-map full adder.jpeg" alt="">
+                    <h4>
+                        <br>Hasil Realisasi
+                    </h4>
+                    <br>
+                    <img class="img-tabel-or" src="img/hasil realisasi full adder.jpeg" alt="">
+                </div>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,128L0,224L288,224L288,320L576,320L576,224L864,224L864,160L1152,160L1152,288L1440,288L1440,320L1152,320L1152,320L864,320L864,320L576,320L576,320L288,320L288,320L0,320L0,320Z"></path></svg>
+        </section>
+        <!-- Akhir Rangkaian Full Adder -->
+
+        <!-- Rangkaian Multiplexer 2 ke 1 -->
+        <section id="multiplexer" style="background-color: #fff">
+            <div class="container">
+                <div class="row text-center mb-3" style="color: #2f3030">
+                    <div class="col">
+                        <br><br><br>
+                        <h2>Rangkaian Multiplexer 2 ke 1</h2>
+                        <br><br>
+                    </div>
+                </div>
+                <div class="row text-start m-3" style="color: #2f3030">
+                    <h4>
+                        Tabel Kebenaran
+                    </h4>
+                    <br>
+                    <img class="img-simbol-and" src="img/tabel kebenaran multiplexer.jpeg" alt="">
+                    <h4>
+                        <br> K-Map
+                    </h4>
+                    <br>
+                    <img class="img-tabel-and" src="img/k-map multiplexer.jpeg" alt="">
+                    <h4>
+                        <br> Realisasi dan Simbol Multiplexer 2 ke 1
+                    </h4>
+                    <br>
+                    <img class="img-tabel-and" src="img/realisasi dan simbol multiplexer.jpeg" alt="">
+                </div>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#2f3030" fill-opacity="1" d="M0,128L0,224L288,224L288,320L576,320L576,224L864,224L864,160L1152,160L1152,288L1440,288L1440,320L1152,320L1152,320L864,320L864,320L576,320L576,320L288,320L288,320L0,320L0,320Z"></path></svg>
+        </section>
+        <!-- Akhir Rangkaian Multiplexer 2 ke 1 -->
+
+        <!-- Rangkaian Rangkaian Decoder -->
+        <section id="decoder" style="background-color: #2f3030">
+            <div class="container">
+                <div class="row text-center mb-3" style="color: #fff">
+                    <div class="col">
+                        <br><br><br>
+                        <h2>Rangkaian Decoder</h2>
+                        <br><br>
+                    </div>
+                </div>
+                <div class="row text-start m-3" style="color: #fff">
+                    <h4>
+                        Tabel Kebenaran
+                    </h4>
+                    <br>
+                    <img class="img-simbol-full-adder" src="img/tabel kebenaran decoder.jpeg" alt="">
+                    <h4>
+                        <br> Diagram Blok dan Persamaan
+                    </h4>
+                    <br>
+                    <img class="img-tabel-and" src="img/diagram blok dan persamaan decoder.jpeg" alt="">
+                    <h4>
+                        <br> Rangkaian Realisasi Decoder
+                    </h4>
+                    <br>
+                    <img class="img-realisasi-decoder" src="img/hasil realisasi decoder.jpeg" alt="">
+                </div>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,128L0,224L288,224L288,320L576,320L576,224L864,224L864,160L1152,160L1152,288L1440,288L1440,320L1152,320L1152,320L864,320L864,320L576,320L576,320L288,320L288,320L0,320L0,320Z"></path></svg>
+        </section>
+        <!-- Akhir Rangkaian Rangkaian Decoder -->
+
+        <!-- Contoh Kasus -->
+        <section id="contoh-kasus" style="background-color: #fff">
+            <div class="container">
+                <div class="row text-center mb-3" style="color: #2f3030">
+                    <div class="col">
+                        <br><br><br>
+                        <h2>Contoh Kasus</h2>
+                        <br><br>
+                    </div>
+                </div>
+                <div class="row text-start m-3" style="color: #2f3030">
+                    <p>
+                        Suatu ruangan yang memiliki 3 buah pintu dan pada setiap pintu terdapat
+                        saklar yang mengontrol cahaya pada ruangan. Kondisi hidup atau matinya lampu tergantung pada kombinasi hubungan
+                        ketiga saklar.
+                    </p>
+                    <p>
+                        Lampu akan menyala jika salah satu atau seluruh saklar dalam kondisi on.
+                        Sedangkan lampu akan padam jika tidak ada saklar yang on atau terdapat
+                        dua diantara tiga saklar dalam kondisi on.
+                    </p>
+                    <p>    
+                        Jika ketiga saklar dinyatakan sebagai x1, x2, dan x3 dengan kondisi saklar
+                        on = level logika ‘1’ serta off = level logika ‘0’. Buatlah tabel kebenaran dan rangkaian realisainya berdasarkan ilustrasi di atas!
+                    </p>
+                    <h4>
+                        <br>Tabel Kebenaran Berdasarkan Ilustrasi Soal
+                    </h4>
+                    <br>
+                    <img class="img-tabel-soal-kombinasional" src="img/tabel kebenaran soal kombinasional.jpeg" alt="">
+                    <h4>
+                        <br>Realisasi Dalam SOP
+                    </h4>
+                    <br>
+                    <img class="img-tabel-or" src="img/realisasi sop soal kombinasional.jpeg" alt="">
+                    <h4>
+                        <br>Realisasi Dalam POS
+                    </h4>
+                    <br>
+                    <img class="img-tabel-or" src="img/realisasi pos soal kombinasional.jpeg" alt="">
+                </div>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#2f3030" fill-opacity="1" d="M0,128L0,224L288,224L288,320L576,320L576,224L864,224L864,160L1152,160L1152,288L1440,288L1440,320L1152,320L1152,320L864,320L864,320L576,320L576,320L288,320L288,320L0,320L0,320Z"></path></svg>
+        </section>
+        <!-- Akhir Contoh Kasus -->
+
+        <!-- Referensi -->
+        <section id="referensi" style="background-color: #2f3030">
+            <div class="container" style="color: #fff">
+            <div class="row">
+            <div class="row text-center mb-3">
+                <div class="col">
+                    <br><br><br>
+                    <h2>Sumber Referensi</h2>
+                </div>
+            </div class="row">
+                <div class="col">
+                    <br>
+                    <div>
+                    <ul class="referensi">
+                        <a href="" style="color: #fff; text-decoration: none;"><li><p>Bahan Ajar Organisasi dan Arsitektur Komputer UIN Sunan Gunung Djati - Rangkaian Logika Kombinasional</p></li></a>
+                    </ul>
+                    <ul class="referensi">
+                        <a href="https://www.google.co.id/books/edition/Teknik_Digital/-N3UWrHGSIMC?hl=id&gbpv=0" style="color: #fff; text-decoration: none;"><li><p>Arifin, Jaenal et al. 2019. Teknik Digital - Teori, Contoh Soal, dan Aplikasi. Yogyakarta: Penerbit ANDI.</p></li></a>
+                    </ul>
+                </div>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#2f3030" fill-opacity="1" d="M0,32L0,128L288,128L288,288L576,288L576,128L864,128L864,256L1152,256L1152,32L1440,32L1440,320L1152,320L1152,320L864,320L864,320L576,320L576,320L288,320L288,320L0,320L0,320Z">
+                </path>
+            </svg>
+        </section>
+        <!-- Akhir Referensi -->
+
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#fff" fill-opacity="1" d="M0,224L0,160L288,160L288,128L576,128L576,224L864,224L864,96L1152,96L1152,192L1440,192L1440,320L1152,320L1152,320L864,320L864,320L576,320L576,320L288,320L288,320L0,320L0,320Z"></path>
+        </svg>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    </body>
+</html>

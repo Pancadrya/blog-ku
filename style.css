@@ -22,7 +22,12 @@
 .img-pembagian-register,
 .img-sejarah,
 .img-rangkaian-komponen,
-.img-register-data {
+.img-pengertian-sisBil,
+.img-pengertian-gerlog,
+.img-register-data,
+.img-biner,
+.img-tabel-soal-kombinasional,
+.img-40 {
   width: 40%;
 }
 
@@ -30,7 +35,13 @@
 .img-simbol-decoder,
 .img-simbol-register-data,
 .img-simbol-register-geser,
-.img-simbol-pencacah {
+.img-simbol-pencacah,
+.img-penjumlahan-biner,
+.img-sop,
+.img-simbol-full-adder,
+.img-realisasi-decoder,
+.img-tabel-ff-sr,
+.img-60 {
   width: 60%;
 }
 
@@ -38,7 +49,13 @@
 .img-demultiplexer,
 .img-decoder,
 .img-rangkaian-register-geser,
-.img-pencacah {
+.img-pencacah,
+.img-simbol-and,
+.img-tabel-and,
+.img-simbol-or,
+.img-tabel-or,
+.img-basis-bilangan,
+.img-80 {
   width: 80%;
 }
 
